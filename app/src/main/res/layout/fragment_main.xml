@@ -27,15 +27,14 @@
         <EditText
             android:id="@+id/message_input"
             android:layout_height="wrap_content"
-            android:layout_width="match_parent"
+            android:layout_width="300dp"
             android:inputType="text"/>
 
         <Button
             android:id="@+id/send_message_button"
-            android:layout_width="match_parent"
+            android:layout_width="68dp"
             android:layout_height="wrap_content"
-            android:text="send ping"/>
-
+            android:text="send ping" />
 
 
     </LinearLayout>

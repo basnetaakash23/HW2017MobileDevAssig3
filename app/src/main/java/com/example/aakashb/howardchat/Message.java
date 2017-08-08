@@ -11,9 +11,7 @@ public class Message {
     private String mUserId;
 
     private String mUserMessage;
-    private String mFromUserName;
-    private String mFromUserId;
-    private String mMessageFrom;
+
 
     public Message(String userName, String userId, String message) {
         mUserName = userName;
@@ -23,9 +21,9 @@ public class Message {
     }
 
     public Message(DataSnapshot pingSnapshot) {
-        mFromUserName = pingSnapshot.child("fromUserName").getValue(String.class);
-        mFromUserId = pingSnapshot.child("fromUserId").getValue(String.class);
-        mMessageFrom = pingSnapshot.child("content").getValue(String.class);
+        mUserName = pingSnapshot.child("fromUserName").getValue(String.class);
+        mUserId = pingSnapshot.child("fromUserId").getValue(String.class);
+        mUserMessage = pingSnapshot.child("content").getValue(String.class);
     }
 
     public String getUserName() {
@@ -33,23 +31,11 @@ public class Message {
     }
 
     public String getMessage() {
-        return mMessageFrom;
+        return mUserMessage;
     }
 
     public String getUserId() {
         return mUserId;
-    }
-
-    public String sentUserName(){
-        return mFromUserName;
-    }
-
-    public String sentUserId(){
-        return mFromUserId;
-    }
-
-    public String sentContent(){
-        return mMessageFrom;
     }
 
 

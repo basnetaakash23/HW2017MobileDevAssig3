@@ -7,6 +7,7 @@ import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.os.IBinder;
+import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
@@ -22,6 +23,8 @@ import com.google.firebase.database.ValueEventListener;
  */
 
 public class NotificationService extends Service {
+    @Nullable
+    @Override
     public IBinder onBind(Intent intent) {
         return null;
     }
@@ -40,10 +43,10 @@ public class NotificationService extends Service {
 
     private void setupDatabase() {
         DatabaseReference databaseRef = FirebaseDatabase.getInstance().getReference();
-        DatabaseReference articlesRef = databaseRef.child("content");
-        Query lastArticleQuery = articlesRef.limitToLast(1);
+        DatabaseReference messagesRef = databaseRef.child("messages");
+        Query lastMessageQuery = messagesRef.limitToLast(1);
 
-        lastArticleQuery.addValueEventListener(new ValueEventListener() {
+        lastMessageQuery.addValueEventListener(new ValueEventListener() {
             boolean mDidInitialLoad = false;
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -72,7 +75,7 @@ public class NotificationService extends Service {
 
         Notification n  = new NotificationCompat.Builder(this)
                 .setContentTitle("New message")
-                .setContentText(""+message.getUserName()+" sent "+message.getMessage())
+                .setContentText(""+message.getUserName() +message.getMessage())
                 .setSmallIcon(android.R.drawable.btn_dropdown)
                 .setContentIntent(pIntent)
                 .setAutoCancel(true)

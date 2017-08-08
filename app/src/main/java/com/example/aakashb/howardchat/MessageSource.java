@@ -1,12 +1,12 @@
 package com.example.aakashb.howardchat;
 
 import android.content.Context;
-import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
@@ -20,21 +20,35 @@ import java.util.Map;
 
 public class MessageSource {
 
-    public static MessageSource get(Context context) {
-        return null;
-    }
-
     public interface MessageListener{
-        void onMessageReceived(List<? extends Message> messageList);
+        void onMessageReceived(List<? extends Message> messageList) ;
+
     }
 
-    public void getMessages(MessageListener messageListener){
-        DatabaseReference databaseRef = FirebaseDatabase.getInstance().getReference();
-        DatabaseReference messageRef = databaseRef.child("content");
-        DatabaseReference messageRef1 = databaseRef.child("fromUserId");
-        DatabaseReference messageRef2 = databaseRef.child("fromUserName");
+    private static MessageSource sMessageSource;
 
-        messageRef.addValueEventListener(new ValueEventListener() {
+    private Context mContext;
+
+    public static MessageSource get(Context context) {
+        if (sMessageSource == null) {
+            sMessageSource = new MessageSource(context);
+        }
+        return sMessageSource;
+    }
+
+    private MessageSource(Context context) {
+        mContext = context;
+    }
+
+    public void getMessages(final MessageListener messageListener){
+        DatabaseReference databaseRef = FirebaseDatabase.getInstance().getReference();
+
+        DatabaseReference messageRef = databaseRef.child("messages");
+        Query last50messageQuery = messageRef.limitToLast(50);
+        //DatabaseReference messageRef1 = databaseRef.child("fromUserId");
+        //DatabaseReference messageRef2 = databaseRef.child("fromUserName");
+
+        last50messageQuery.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 List<Message> allMessages = new ArrayList<>();
@@ -43,7 +57,7 @@ public class MessageSource {
                     Message allMessage = new Message(messageSnapshot);
                     allMessages.add(allMessage);
                 }
-                MessageListener.onMessageReceived(allMessages);
+                messageListener.onMessageReceived(allMessages);
 
             }
 
@@ -52,30 +66,19 @@ public class MessageSource {
 
             }
         });
-
-
-
     }
 
     public void sendMessage(Message message){
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
-        DatabaseReference messageReference = databaseReference.child("content");
+        DatabaseReference messageReference = databaseReference.child("messages");
         DatabaseReference newMessageReference = messageReference.push();
 
-        Map<String, String> messageMap = new HashMap<>();
+        Map<String, Object> messageMap = new HashMap<>();
         messageMap.put("content",message.getMessage());
         messageMap.put("fromUserId",message.getUserId());
         messageMap.put("fromUserName",message.getUserName());
 
-        newMessageReference.setValue(messageMap, new DatabaseReference.CompletionListener() {
-            @Override
-            public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
-                if(databaseError== null){
-                    //Toast.makeText(Context context,)
-                }else{
+        newMessageReference.setValue(messageMap);
 
-                }
-            }
-        });
     }
 }

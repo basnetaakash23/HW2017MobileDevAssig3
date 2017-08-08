@@ -1,12 +1,11 @@
 package com.example.aakashb.howardchat;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -28,6 +27,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+
+//import android.support.v4.app.Fragment;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
     private static final String TAG = "<your tag here>";
@@ -90,7 +91,20 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
         updateUI(currentUser);
+        Intent i = new Intent(this, NotificationService.class);
+        stopService(i);
     }
+
+
+    public void onStop() {
+        super.onStop();
+        Log.i("DEI", "app stopped");
+        // Start the service
+        Intent i = new Intent(this, NotificationService.class);
+        startService(i);
+    }
+
+
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -139,6 +153,20 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         invalidateOptionsMenu();
         String toastText = user == null ? "Signed out" : "Signed in as "+user.getEmail();
         Toast.makeText(MainActivity.this, toastText , Toast.LENGTH_SHORT).show();
+        // Show or remove the MainFragment based on user signed-in state change.
+        FragmentManager fm = getSupportFragmentManager();
+        Fragment currentFragment = fm.findFragmentById(R.id.container);
+        if (user != null && currentFragment == null) {
+            // If the user is signed IN, and there is NOT a fragment in the container, add it.
+            //Fragment mainFragment = new MainFragment();
+            Fragment frag = new MainFragment();
+            fm.beginTransaction().replace(R.id.container, frag).commit();
+
+        } else if (user == null && currentFragment != null) {
+            // If the user is signed OUT, and there IS a fragment in the container, remove it.
+            fm.beginTransaction().remove(currentFragment).commit();
+        }
+
     }
 
     private void signIn() {
