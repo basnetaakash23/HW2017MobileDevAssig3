@@ -1,0 +1,1111 @@
+{
+  "project_info": {
+    "project_number": "275284649567",
+    "firebase_url": "https://howardwest2017chat.firebaseio.com",
+    "project_id": "howardwest2017chat",
+    "storage_bucket": "howardwest2017chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:27cd68513652e5f7",
+        "android_client_info": {
+          "package_name": "com.diglesia.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-sp7g5bui4pq9dk9facsca6u58luje7id.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.diglesia.howardchat",
+            "certificate_hash": "d820974ba635bb125948408e22d2eb57798d734e"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:087baf7b8d76bd57",
+        "android_client_info": {
+          "package_name": "com.diglesia.hw2017mobiledev.lab7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-a2efa9ecq6g12auca33idbkuatu6415c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.diglesia.hw2017mobiledev.lab7",
+            "certificate_hash": "c5aed35f636e6c8f6d283dee5b3504864b01d7e7"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:a20896b2aa19a1ce",
+        "android_client_info": {
+          "package_name": "com.Bcoding21.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-s6emt3ru7hi23s3l6aeu4ufae56nbrpj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Bcoding21.android",
+            "certificate_hash": "c5aed35f636e6c8f6d283dee5b3504864b01d7e7"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:bcf7254659177704",
+        "android_client_info": {
+          "package_name": "com.brandon.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-h2e66qnko00e942a8c9emtrlmi88jbno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brandon.howardchat",
+            "certificate_hash": "c5aed35f636e6c8f6d283dee5b3504864b01d7e7"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:cc1a21ab4b738556",
+        "android_client_info": {
+          "package_name": "com.kmays.hw2017mobiledev.Assig3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-p7u33pqaog6kkfidv4d3pcamtljl2n1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kmays.hw2017mobiledev.Assig3",
+            "certificate_hash": "73dfab855ab35a452d53e820789aca055249e180"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:377a46c6f81316e8",
+        "android_client_info": {
+          "package_name": "com.asapkota.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-plttqro5mbhn8i789kdqistmq3rsfpv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asapkota.howardchat",
+            "certificate_hash": "773c04e4244c153c9c2258513df60da1de62c0ae"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:dcf8b716e8837825",
+        "android_client_info": {
+          "package_name": "com.surajupreti.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-93leh1qd0t1m0fcrs1hron3et4oimn6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.surajupreti.howardchat",
+            "certificate_hash": "4e1c4292d2943b5a87bcb0c436ef700fb008c3e8"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:635b50a86def91df",
+        "android_client_info": {
+          "package_name": "com.jogato.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-u7715vgfmdstvte8hu6u6nbjf1ucndhu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jogato.howardchat",
+            "certificate_hash": "44ce6c3e6392cd49c093cd4e9e3abeaea9a29b64"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:ed2a92cff6f6ba57",
+        "android_client_info": {
+          "package_name": "com.mckoy.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-bl04h3f9bd2fa0upjdoag9r67hokt99v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mckoy.howardchat",
+            "certificate_hash": "04a604d05a9871e630f16d9a6796ae51e22fddc1"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:0e4b521d591d4d14",
+        "android_client_info": {
+          "package_name": "com.elijahc.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-18kggk86t3m9lh02k2p372opsce0jb4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elijahc.howardchat",
+            "certificate_hash": "38355ce4a733175cb9f92c1ee746c3a2eaa33441"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:a8842b17fde70d5b",
+        "android_client_info": {
+          "package_name": "com.oajisegiri.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-sudu6gjj1rav7d97sqvqpg6tmrdekrgk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oajisegiri.howardchat",
+            "certificate_hash": "f191bb4bac0dea401e2b705823977931f585f1a2"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:96733bdf39f8b152",
+        "android_client_info": {
+          "package_name": "com.pranayaa.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-fem6pekce0p50bgrde8v1mj1t5qmmft0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pranayaa.howardchat",
+            "certificate_hash": "b6898bc209d5f5960a16d45a2054f5357fe6e208"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:da557ada9d873550",
+        "android_client_info": {
+          "package_name": "com.example.rkhadka.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-j2q2esukalh7agrupilcpvmr10qfao5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rkhadka.howardchat",
+            "certificate_hash": "84c510a0518e0ce18ca56c5e3ae5db0b77aceff8"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:f5e4d4553c8ff558",
+        "android_client_info": {
+          "package_name": "com.osalaam.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-90g58ag6nhep9mocudnqqpuqsf63cs1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.osalaam.howardchat",
+            "certificate_hash": "91ce868727cc1242405ccc6b75d1d56443cd2d39"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:486d898b3d69d8b2",
+        "android_client_info": {
+          "package_name": "com.bkoirala.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-e8t2ipfb9mv04rdbvj2nsbqqpvt2ot70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bkoirala.howardchat",
+            "certificate_hash": "710e6487b3d79d68431c91eaf529ffc683738906"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:037fdec0c2a16edf",
+        "android_client_info": {
+          "package_name": "com.lomotey.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-9551b06fuhfn5v8tp5p12tfcui01bl84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lomotey.howardchat",
+            "certificate_hash": "c780979ff280fa9cb04f019d600ccd50cecdb3ee"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:e8acb63e064df7cd",
+        "android_client_info": {
+          "package_name": "com.example.aakashb.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-diqdg96mdio58jb1rmfsrarbt14uj0ms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aakashb.howardchat",
+            "certificate_hash": "a9c056528bcf01cd71b686df2f0e7a4ef55e99ef"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:4730dae6592c414a",
+        "android_client_info": {
+          "package_name": "com.kfredrick.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-vv5dqmkpspv2jttrssn2q8jnkpdcjtef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kfredrick.howardchat",
+            "certificate_hash": "281dae076a867aa969af6e5943a7f374bebdc737"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:2db9f54cd3736c17",
+        "android_client_info": {
+          "package_name": "com.example.saryal.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-hvnh6kn1g6vnubtopalpdr2eveuq4dmc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saryal.howardchat",
+            "certificate_hash": "e3ea4b0761cf921e4a5ab4a76ce63d6823ebaa2a"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:cef4663d149ecc16",
+        "android_client_info": {
+          "package_name": "com.example.ashok.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-ca4m6epfoba0omlal3i21nel895909l0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ashok.howardchat",
+            "certificate_hash": "08f18d2ebb39fded4596492f29b11f7a2ccdd479"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:5ea2f7b6de48b88f",
+        "android_client_info": {
+          "package_name": "com.thitchener.hw2017mobiledev.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-stu6hs3tr2j8liip11i8b1s88q7ijj35.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thitchener.hw2017mobiledev.howardchat",
+            "certificate_hash": "ef5445b80182092659842617c96df86c4a7cebb7"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:4289dddd8a6fe5c9",
+        "android_client_info": {
+          "package_name": "com.ositanachi.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-e73nho2766i0j8lmkq5i66g1mttfupjc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ositanachi.howardchat",
+            "certificate_hash": "787b5b431a856145eaa5ea2acb6c0f16f822852c"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:b0caab7347998985",
+        "android_client_info": {
+          "package_name": "com.giddriver.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-c01nffbstb8324fvgft58lu3l7msvgll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.giddriver.howardchat",
+            "certificate_hash": "0d9b8a2e7104317c13f05b09984559b8274d6c2e"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:b058e13ed909f554",
+        "android_client_info": {
+          "package_name": "com.dramalho.hw2017mobiledev.howardchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-i75gbp999rjjol6at87hv2d9iq76pnnv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dramalho.hw2017mobiledev.howardchat",
+            "certificate_hash": "5c900d7801ea758ed82dc8d715d28251a6b9cdb0"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275284649567:android:200a3021403cba84",
+        "android_client_info": {
+          "package_name": "com.example.velazquezv.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275284649567-kkv33af0elnjfkd9gupbif6mv7otuv27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.velazquezv.chatapp",
+            "certificate_hash": "055c8ccfc033a47aa2a75acaa7f805858d21bcd7"
+          }
+        },
+        {
+          "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nwpi7pwWx8QEUB3xhJyNFqqJ2hBe_Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275284649567-f98043ub2um8vc49tq540g64u9md4rpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
